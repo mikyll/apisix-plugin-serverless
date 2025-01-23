@@ -5,7 +5,7 @@
 [![Lua][lua-shield]][lua-url]
 [![Perl][perl-shield]][perl-url]
 [![YAML][yaml-shield]][yaml-url]\
-[![Build Status](https://github.com/mikyll/apisix-plugin-jwt-sign/actions/workflows/ci.yml/badge.svg)](https://github.com/mikyll/apisix-plugin-jwt-sign/actions)
+[![Build Status](https://github.com/mikyll/apisix-plugin-serverless/actions/workflows/ci.yml/badge.svg)](https://github.com/mikyll/apisix-plugin-serverless/actions)
 
 # APISIX Serverless Custom Plugin
 
