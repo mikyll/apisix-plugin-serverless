@@ -25,6 +25,16 @@ This custom plugin extends serverless plugin to load functions from files.
 
 How to install and enable the plugin.
 
+## Docker
+
+TODO
+
+## Docker Compose
+
+TODO
+
+## Kubernetes
+
 TODO
 
 [Back to TOC](#table-of-contents)
@@ -33,9 +43,19 @@ TODO
 
 How to setup a route and use the plugin.
 
-Send a request to ...
+### Traditional
 
-Which query/body params?
+1. Load the plugin
+2. Enable the plugin on a route
+3. Send a request to the route
+
+TODO
+
+### Standalone
+
+1. Load the plugin
+2. Enable the plugin on a route
+3. Send a request to the route
 
 TODO
 
