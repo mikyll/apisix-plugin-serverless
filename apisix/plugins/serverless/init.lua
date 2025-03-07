@@ -17,6 +17,7 @@
 local ipairs = ipairs
 local pcall = pcall
 local loadstring = loadstring
+local loadfile = loadfile
 local require = require
 local type = type
 
@@ -151,7 +152,7 @@ return function(plugin_name, priority)
             for _, func_str in ipairs(functions) do
                 local func, err = loadfile(func_str)
                 if err then
-                    return false, 'failed to loadstring: ' .. err
+                    return false, 'failed to loadfile: ' .. err
                 end
 
                 local ok, ret = pcall(func)
